@@ -1,6 +1,6 @@
 # for up (creating container)
 docker-compose-up:
-	@docker-compose up -d adminer
+	@docker-compose up -d
 
 # for remove container
 docker-compose-down:
@@ -8,11 +8,11 @@ docker-compose-down:
 
 # for start container
 docker-compose-start:
-	@docker-compose start adminer
+	@docker-compose start
 
 # for stop container
 docker-compose-stop:
-	@docker-compose stop adminer
+	@docker-compose stop
 
 # for logs service
 docker-compose-logs:
